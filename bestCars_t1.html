@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Best Cars</title>
+
+
+<script type="text/javascript">
+function doit() {}
+
+</script>
+
+<script>
+var first, last, ofirst, olast;
+window.onload = function() 
+{
+first = document.getElementById('first');
+</script>
+
+<style>
+.note {
+width: 100px;
+height: 40px;
+background-color: #3333FF;
+}
+.article {
+width: 100px;
+height: 40px;
+background-color: #CC3333;
+}
+</style>
+
+</head>
+
+<body>
+Cars in stock
+<table width="500" border="1" cellpadding="3"><tr><td>
+<div class="article">Mustang</div><br>
+<div class="note">cost</div><br>
+<br>
+<div class="article">Corvette</div><br>
+<div class="note">Cost</div><br>
+<br>
+<div class="article">Porshe</div><br>
+<div class="note">Cost</div><br>
+<br>
+
+
+<span id="output"></span><br>
+
+</td><td valign="top">
+<h2>Submit your car's make and model to find out what its worth on a trade</h2><br />
+<Label>Make:</Label><input type="text" id="first"/><br>
+<Label>Model:</Label><input type="text" id="last"/><br>
+<button id="storeData">Submit Info</button><br>
+
+<div id="output">
+  Make: <output id="fnameOutput"></output><br>
+  Model <output id="lnameOutput"></output><br>
+</div>
+<button id="retrieveData">Confirm Info</button><br>
+</td></tr><table>
+</body>
+</html>
